@@ -1,18 +1,29 @@
 # Add a Blazor AutoComplete Component to a Blazor Server App 
 
-A quick overview on how to create and configure the Syncfusion Blazor AutoComplete in a Blazor Server app. You will learn how to add a simple Blazor AutoComplete to a Blazor Server app. You will also see how to populate it with list data and remote data sources. You will also learn how to highlight the searched text, and how to set a custom height and width for the AutoComplete pop-up.
-
-**Example**: https://www.syncfusion.com/blazor-components/blazor-autocomplete
-
-**Documentation**: https://blazor.syncfusion.com/documentation/autocomplete/getting-started
+A quick overview on how to create and configure the Syncfusion [Blazor AutoComplete](https://www.syncfusion.com/blazor-components/blazor-autocomplete) in a Blazor Server App. You will learn how to add a simple Blazor AutoComplete to a Blazor Server App. You will also see how to populate it with list data and remote data sources. You will also learn how to highlight the searched text, and how to set a custom height and width for the AutoComplete pop-up.
 
 ## Prerequisites
 
-* Visual Studio 2022
+* Visual Studio 2022 or later
+* Visual Studio Code
 
 ## How to run the project
 
-* Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2022.
-* Restore the NuGet packages by rebuilding the solution.
-* Run the project.
+1. Clone or download this repository to a location in your system.
+2. Open the solution file using the Visual Studio or Visual Studio code.
+3. Restore the NuGet packages by rebuilding the solution or run `dotnet restore`.
+4. Build the project to ensure there are no compilation errors.
+5. Run the project.
+
+Optional CLI Commands:
+
+```powershell
+dotnet restore
+dotnet build
+```
+
+## References
+
+**Documentation**: https://blazor.syncfusion.com/documentation/autocomplete/getting-started-with-web-app
+
+**Online example**: https://blazor.syncfusion.com/demos/autocomplete/default-functionalities?theme=fluent2
