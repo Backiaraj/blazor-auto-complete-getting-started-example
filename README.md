@@ -1,25 +1,51 @@
-# Add a Blazor AutoComplete Component to a Blazor Server App 
+# Blazor AutoComplete Getting Started
 
-A quick overview on how to create and configure the Syncfusion [Blazor AutoComplete](https://www.syncfusion.com/blazor-components/blazor-autocomplete) in a Blazor Server App. You will learn how to add a simple Blazor AutoComplete to a Blazor Server App. You will also see how to populate it with list data and remote data sources. You will also learn how to highlight the searched text, and how to set a custom height and width for the AutoComplete pop-up.
+A minimal example showing how to add and configure the [Blazor AutoComplete](https://www.syncfusion.com/blazor-components/blazor-autocomplete) component in a Blazor Server App.
+
+## Overview
+
+This repository contains a Blazor Server application that showcases the Blazor AutoComplete component in action. The AutoComplete component provides intelligent text input with autocomplete suggestions based on a predefined data source.
+
+## Features
+
+- **AutoComplete Input** — Real-time autocomplete with dropdown suggestions
+- **Local Data Binding** — Demonstrates binding to a list of objects
+- **Custom Popup Styling** — Configurable width and height
+- **Fluent 2 Theme** — Modern, professional styling out of the box
+- **Blazor Server Setup** — Complete working example with routing and layout
+- **.NET 10.0 Compatible** — Built on the latest .NET framework
+- **Type-Safe Components** — Full C# type safety with generic parameters
 
 ## Prerequisites
 
-* Visual Studio 2022 or later
-* Visual Studio Code
+* [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+* [Visual Studio Code](https://code.visualstudio.com/)
 
-## How to run the project
+## Getting Started
 
-1. Clone or download this repository to a location in your system.
-2. Open the solution file using the Visual Studio or Visual Studio code.
-3. Restore the NuGet packages by rebuilding the solution or run `dotnet restore`.
-4. Build the project to ensure there are no compilation errors.
-5. Run the project.
+### Clone the Repository
 
-Optional CLI Commands:
+```bash
+git clone https://github.com/SyncfusionExamples/blazor-autocomplete-getting-started.git
+cd AddingAutoCompleteSample
+```
 
-```powershell
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
 dotnet restore
-dotnet build
+
+# Run the project
+dotnet run
 ```
 
 ## References
